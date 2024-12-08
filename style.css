@@ -1,0 +1,234 @@
+body{
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width:100%;
+}
+button{
+    border-top-style: dotted;
+}
+header{
+    background-color:plum;
+    height:10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.catalogo{
+    height: 75%;
+    background-color: lightblue;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    
+}
+footer{
+    height: 10%;
+    background-color: plum;
+}
+
+.productos{
+    background-color: aquamarine;
+    position:relative;
+
+}
+#ale > img{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#arg > img{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#cro {
+    grid-row: 1/1;
+    grid-column: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#esp > img{
+    grid-row: 1/1;
+    grid-column: 4/5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#esto > img{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#fra> img{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ita > img{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#let > img{
+    grid-row:2/3;
+    grid-column: 5/6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#lit > img{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#pol > img{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#rep > img{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#rum > img{
+    grid-row: 3/4;
+    grid-column: 4/5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desc{
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 50px;
+    align-content: center;
+   opacity: 10%;
+    background-color: antiquewhite;
+    position:absolute;
+    border: none;
+
+}
+
+
+
+/*BOTONES DE CADA PAIS*/
+
+#b_ale:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_arg:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_cro:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/255px-Flag_of_Croatia.svg.png);
+    color:bisque;
+    background-size:cover;
+    opacity: 80%;
+}
+#b_esp:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png);
+    background-size: cover;
+    opacity: 80%;
+}
+#b_esto:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1280px-Flag_of_Estonia.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_fra:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_ita:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_let:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1920px-Flag_of_Latvia.svg.png);
+
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_lit:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1920px-Flag_of_Lithuania.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_pol:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_rep:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+#b_rum:hover{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png);
+    color:bisque;
+    background-size: cover;
+    opacity: 80%;
+}
+
+
+
+p{
+    display: flex;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;  
+    opacity: 80%;
+    background-color: antiquewhite;
+    position:absolute;
+}
+
