@@ -1,139 +1,144 @@
 body{
-    background-color: blue;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width:100%;
+    background-color: rgb(124, 124, 199);
+    height: 100%;
+    width:99%;
 }
 button{
+    height:8vh;
     border-top-style: dotted;
+    box-shadow: 1px -5px 25px rgba(0, 0, 0, 0.3);
+    min-width: 150px;
+    margin-top: -10px;
 }
 header{
-    background-color:plum;
-    height:10%;
+    background-color:rgb(162, 154, 234);
+    height:10vh;
     display: flex;
     justify-content: space-around;
+    margin-right: 10px;
+    padding-right: 5%;
+    padding-left: -15%;
 
 }
 .catalogo{
-    height: 75%;
-    background-color: lightblue;
+    background-color: rgba(140, 0, 255, 0.03);
     display: grid;
     box-sizing: border-box;
+    min-height: 80vh;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 1px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    margin: 20px;
+    gap: 15px;
+    padding-right: 20px;
     
 }
 footer{
-    height: 10%;
-    background-color: plum;
-}
-
-.productos{
-    background-color: aquamarine;
-    position:relative;
+    background-color: rgb(162, 154, 234);
+    margin-bottom: 0px;
+    align-content: center;
 
 }
-#ale > img{
+
+
+.producto{
+    box-shadow: 15px 15px 18px rgba(0, 0, 0, 0.3);
+} 
+#ale{
+    min-width: 220px;
     grid-row: 1/1;
     grid-column: 1/1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRFiIlD43_6Fz46zOm58JzUkjlVPVXdiWq3lfNOHGWSkMA8Vyj4RIe-ZFJ73LAEZKgypPyTCCJ6PjqPa0EByFeBzGNi5gjvIcQ4nrbaSA);
+    background-size: cover;
 }
-#arg > img{
+#arg{
+    min-width: 220px;
     grid-row: 1/1;
     grid-column: 2/3;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSquDqKLwuOCtRdu6UPhrIYS72oq2Kh6c9K2ylzMKH2KdZyX60Gcs0zvyhy7S9ND8yhmiZkmy3G34V_07Pdn9oM4UGM-W47-2HgPiD-qg);
+    background-size: cover;
 }
-#cro {
+#cro{
+    min-width: 220px;
     grid-row: 1/1;
     grid-column: 3/4;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQX7BvjWUfNoo6lTyfQ2serMV_2ty3fgFZnrxHmC3Zjle7BhI9xr0lkPkS0bRnuCPzD_QH4xe5siyE7ysUPg_yVuwqDJrliDfsuK7zJGQ);
+    background-size: cover;
 }
-#esp > img{
+#esp{
+    min-width: 220px;
     grid-row: 1/1;
     grid-column: 4/5;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ5iFlAKIwmLxjGuKVLbrLkO60vTuokvHU5072BT0gh47f3c3D-bkE_p98t-p8Vz4YuM0f2HxuxaWXxIgRB55GZebC9GYJK7M1wSFMafk4);
+    background-size: cover;
 }
-#esto > img{
+#esto{
+    min-width: 220px;
     grid-row: 2/3;
     grid-column: 1/2;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ0Gl-HM1XQC69lRfm8wnpWPDmlLpZS3FXbXzo5-hqz5LhPOndV90oBuEIPNiCImPPKRK-icRlVcCTKaOgi5zrj5jQkbyTwt2KH0auijw);
+    background-size: cover;
 }
-#fra> img{
+#fra{
+    min-width: 220px;
     grid-row: 2/3;
     grid-column: 2/3;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRhMgQurfC--FIOOj9Xo5Vit7J7EEIhP_fjud-ibNvEa9QcS0uuqypvSHbdxihFl4bHCiaxCiOpbXiUBV9K0s2ljTbbCoYhq6f2SgwLMQ);
+    background-size:cover;
 }
-#ita > img{
+#ita{
+    min-width: 220px;
     grid-row: 2/3;
     grid-column: 3/4;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTquWRgXUX99wWN7jt3qI49ZzOkBKlskBbWK7gWDfA3vfxuTQHnJTJNnzMxguIUwLM4gAC1WBDd90q_OdmwypY-rVUSAjNSuCGHGvuELA);
+    background-size: cover;
 }
-#let > img{
+#let{
+    min-width: 220px;
     grid-row:2/3;
-    grid-column: 5/6;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    grid-column: 4/5;
+    background-image: url(https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRRDUei9jZ35vKi-7RKeAbHGDH80JV3ha8r291Zk5zIQ9_Bnduw3jj4czPLQWMj1ZLLjQZGRrEy1khk1vqEr12NLHCW4R2Ckr40DOvLWRU);
+    background-size: cover;
 }
-#lit > img{
+#lit{
+    min-width: 220px;
     grid-row: 3/4;
     grid-column: 1/2;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT_FqgmB74Bj-y2_gYYS1LEYhXgkSON5-_uggyVC6i049Fo5ty14mi4atiFyxWi_7QiMWh2ch2_5o7S6L1lKMYvvnAs4DjXjgaYUgvPlw);
+    background-size: cover;
 }
-#pol > img{
+#pol{
+    min-width: 220px;
     grid-row: 3/4;
     grid-column: 2/3;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://lh5.googleusercontent.com/p/AF1QipOBP6SYE8Jr5NCGQc1AOjGP5VwHoDG54AWTVxyg=w616-h356-n-k-no);
+    background-size: cover;
 }
-#rep > img{
+#rep{
     grid-row: 3/4;
     grid-column: 3/4;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQ6r0fbx7PXEQaUL7_eLzvQOT4x3yu7XfvxNLItEvU_0BkXQlAvI9-dWLYtwRWYUAvbMZCt-MSDmpEWs3HY-nXtRGT8FIWbNOpLiFoylw);
+    background-size: cover;
 }
-#rum > img{
+#rum{
+    min-width: 220px;
     grid-row: 3/4;
     grid-column: 4/5;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(https://lh3.googleusercontent.com/proxy/yBYlUdwirvnMGlbb8F5g_Ykjz4pSmwhP1OKpHoteaHvkn-OFl3dbX0Jh7DBtMeAFgiF1HOo3sb1T_Z5u_fQYdnl7ulqkngivMe26HkWcfMVeV82tW036zTHnZ6N8sc0X3EyEYR84Ui9tv3VYghtDMOlDx1BH2Q=w616-h356-n-k-no);
+    background-size: cover;
 }
 
 .desc{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;  
+    position:absolute;
+    color: aliceblue;
     font-weight: bold;
-    width: 300px;
-    height: 200px;
-    margin-top: 150px;
-    margin-left: 50px;
-    align-content: center;
-   opacity: 10%;
-    background-color: antiquewhite;
+    margin-left: -25px;
+    width: 20%;
+    height: 20%;
+    align-content:center;
+    opacity:80%;
     position:absolute;
     border: none;
 
@@ -141,94 +146,208 @@ footer{
 
 
 
-/*BOTONES DE CADA PAIS*/
+/*PRECIOS DE CADA PAIS*/
 
-#b_ale:hover{
-    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+#p_ale:hover{
+   background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png);
+    background-size: contain;
+    color: black;
+    opacity: 75%;
+   
 }
-#b_arg:hover{
+#p_arg:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color: black;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_cro:hover{
+#p_cro:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/255px-Flag_of_Croatia.svg.png);
-    color:bisque;
-    background-size:cover;
-    opacity: 80%;
+    color: black;
+    background-size:contain;
+    opacity: 75%;
 }
-#b_esp:hover{
+#p_esp:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1280px-Bandera_de_Espa%C3%B1a.svg.png);
-    background-size: cover;
-    opacity: 80%;
+    background-size: contain;
+    opacity: 75%;
+    color: black;
 }
-#b_esto:hover{
+#p_esto:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1280px-Flag_of_Estonia.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color:aliceblue;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_fra:hover{
+#p_fra:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png);
-    color:bisque;
+    color: black;
     background-size: cover;
-    opacity: 80%;
+    opacity: 75%;
 }
-#b_ita:hover{
+#p_ita:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png);
-    color:bisque;
+    color: black;
     background-size: cover;
-    opacity: 80%;
+    opacity: 75%;
 }
-#b_let:hover{
+#p_let:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/1920px-Flag_of_Latvia.svg.png);
 
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color: black;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_lit:hover{
+#p_lit:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/1920px-Flag_of_Lithuania.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color: black;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_pol:hover{
+#p_pol:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color: black;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_rep:hover{
+#p_rep:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png);
-    color:bisque;
-    background-size: cover;
-    opacity: 80%;
+    color: black;
+    background-size: contain;
+    opacity: 75%;
 }
-#b_rum:hover{
+#p_rum:hover{
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/1280px-Flag_of_Romania.svg.png);
-    color:bisque;
+    color: black;
     background-size: cover;
-    opacity: 80%;
+    opacity: 75%;
 }
 
+h2{margin-top: 1vh;}
 
+h3{
+    margin-left: 40%;
+    
+    
+}
+a{
+    margin-left: 3%;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;  
+    position:absolute;
 
+}
 p{
+    min-width: 130px;
     display: flex;
     font-weight: bold;
-    width: 300px;
-    height: 50px;
-    margin-top: 80px;
-    margin-left: 50px;
+    font-size:14px;
+    margin-top: 25px;
+    margin-left: 3%;
+    width: 13%;
+    height: 5%;
     justify-content: center;
     align-items: center;  
     opacity: 80%;
-    background-color: antiquewhite;
     position:absolute;
+    background-color: aliceblue;
 }
 
+
+
+
+
+
+
+@media (max-width: 1090px) {
+
+
+    .desaparece{
+        display: none;
+    }
+        
+
+    .catalogo {
+        min-width: 80%;
+       margin-left: 15%;
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(12, 1fr); 
+       gap: 5px; 
+       height: 100%;
+       max-width: 65%;
+       
+     }
+     #ale {
+    min-height: 200px;
+       grid-row: 1/2;
+       grid-column: 1/2;
+     }
+     #arg {
+       grid-row: 2/3;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+     #cro {
+       grid-row: 3/4;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+     #esp {
+       grid-row: 4/5;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+     #esto {
+       grid-row: 5/6;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+     #fra {
+       grid-row: 6/7;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+    #ita {
+       grid-row: 7/8;
+       grid-column: 1/2;
+       min-height: 200px;
+     }
+    #let {
+        grid-row: 8/9;
+        grid-column: 1/2;
+        min-height: 200px;
+      }
+    #lit {
+        grid-row: 9/10;
+        grid-column: 1/2;
+        min-height: 200px;
+      }
+    #pol{
+        grid-row: 10/11;
+        grid-column: 1/2;
+        min-height: 200px;
+      }
+    #rep {
+        grid-row: 11/12;
+        grid-column: 1/2;
+        min-height: 200px;
+      }
+    #rum {
+        grid-row: 8/9;
+        grid-column: 1/2;
+        min-height: 200px;
+      }
+
+    .desc{
+        margin-left: 17%;
+       
+       
+    
+    }
+    p{
+        margin-left:20%;
+    }
+   }
+   
