@@ -1,23 +1,29 @@
 body{
-    background-color: rgb(124, 124, 199);
+    background-color: rgba(45, 162, 72, 0.667);
     height: 100%;
     width:99%;
 }
+
 button{
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(202, 244, 207);
     height:8vh;
     border-top-style: dotted;
     box-shadow: 1px -5px 25px rgba(0, 0, 0, 0.3);
     min-width: 150px;
+    text-align: center;
     margin-top: -10px;
 }
 header{
-    background-color:rgb(162, 154, 234);
+    background-color:rgba(85, 235, 90, 0.815);
     height:10vh;
     display: flex;
     justify-content: space-around;
     margin-right: 10px;
     padding-right: 5%;
     padding-left: -15%;
+    border-radius: 15px;
 
 }
 .catalogo{
@@ -32,15 +38,18 @@ header{
     
 }
 footer{
-    background-color: rgb(162, 154, 234);
+    background-color: rgb(140, 255, 127);
     margin-bottom: 0px;
     align-content: center;
+    border-radius: 15px;
 
 }
 
 
 .producto{
     box-shadow: 15px 15px 18px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    
 } 
 #ale{
     min-width: 220px;
@@ -252,7 +261,8 @@ p{
     align-items: center;  
     opacity: 80%;
     position:absolute;
-    background-color: aliceblue;
+    background-color: rgb(207, 230, 249);
+    border-radius: 15px;
 }
 
 
